@@ -1,12 +1,8 @@
 {
   "name": "datahantering",
   "version": "1.0.0",
-  "description": "labb-2",
+  "description": "Simple CRUD-web-app",
   "main": "index.js",
-  "dependencies": {
-    "mysql": "^2.15.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/viyanateaa/Datahantering.git"
   },
-  "author": "Viyan Ateaa",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/viyanateaa/Datahantering/issues"
   },
-  "homepage": "https://github.com/viyanateaa/Datahantering#readme"
+  "homepage": "https://github.com/viyanateaa/Datahantering#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
 }
